@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">BaseMath</string>
+    <string name="edit_name">Name</string>
+    <string name="start_exam">Start Exam</string>
+    <string name="primary_level">primary</string>
+    <string name="middle_level">middle</string>
+    <string name="senior_level">senior</string>
+    <string name="chose_level">Please choose your exam level!</string>
+
+    <string name="primary_sub1">1. 19 + 17 = ? </string>
+    <string name="primary_sub2">2. 23 – 15 = ? </string>
+    <string name="primary_sub3">3. 3 x 27 = ? </string>
+    <string name="primary_sub4">4. 85 ÷ 5 = ? </string>
+
+    <string name="middle_sub1">1. (15 + 7) x 3 = ? </string>
+    <string name="middle_sub2">2. (55 – 15) ÷ 4 = ? </string>
+    <string name="middle_sub3">3. 3 x 27 ÷ 9 = ? </string>
+    <string name="middle_sub4">4. 56 ÷ (93 – 85) = ? </string>
+
+    <string name="senior_sub1">1. (x + y)² ≥ ? (x,y ∈ Z)</string>
+    <string name="senior_sub2">2. (23 – 15)² = ? </string>
+    <string name="senior_sub3">3. √(3 x 27) = ? </string>
+    <string name="senior_sub4">4. (30 - 2 x 3)² = ? </string>
+
+    <!-- 选项C. -->
+    <string name="primary_sub1_item1">33</string>
+    <string name="primary_sub1_item2">46</string>
+    <string name="primary_sub1_item3">36</string>
+
+    <!-- 选项B. -->
+    <string name="primary_sub2_item1">38</string>
+    <string name="primary_sub2_item2">8</string>
+    <string name="primary_sub2_item3">13</string>
+    <string name="primary_sub2_item4">6</string>
+
+    <!-- 选项A. -->
+    <string name="primary_sub3_item1">81</string>
+    <string name="primary_sub3_item2">61</string>
+
+    <!-- 选项C. -->
+    <string name="primary_sub4_item1">30</string>
+    <string name="primary_sub4_item2">26</string>
+    <string name="primary_sub4_item3">17</string>
+
+    <!-- type middle -->
+    <!-- 选项C. -->
+    <string name="middle_sub1_item1">33</string>
+    <string name="middle_sub1_item2">44</string>
+    <string name="middle_sub1_item3">66</string>
+
+    <!-- 选项B. -->
+    <string name="middle_sub2_item1">38</string>
+    <string name="middle_sub2_item2">10</string>
+    <string name="middle_sub2_item3">13</string>
+    <string name="middle_sub2_item4">6</string>
+
+    <!-- 选项A. -->
+    <string name="middle_sub3_item1">9</string>
+    <string name="middle_sub3_item2">81</string>
+
+    <!-- 选项C. -->
+    <string name="middle_sub4_item1">30</string>
+    <string name="middle_sub4_item2">26</string>
+    <string name="middle_sub4_item3">7</string>
+
+    <!-- type senior -->
+    <!-- 选项C. -->
+    <string name="senior_sub1_item1">x²+y²+3xy</string>
+    <string name="senior_sub1_item2">2x²+2y²+2xy</string>
+    <string name="senior_sub1_item3">x²</string>
+
+    <!-- 选项B. -->
+    <string name="senior_sub2_item1">38</string>
+    <string name="senior_sub2_item2">64</string>
+    <string name="senior_sub2_item3">13</string>
+    <string name="senior_sub2_item4">6</string>
+
+    <!-- 选项A. -->
+    <string name="senior_sub3_item1">9</string>
+    <string name="senior_sub3_item2">27</string>
+
+    <!-- 选项C. -->
+    <string name="senior_sub4_item1">430</string>
+    <string name="senior_sub4_item2">262</string>
+    <string name="senior_sub4_item3">576</string>
+
+</resources>

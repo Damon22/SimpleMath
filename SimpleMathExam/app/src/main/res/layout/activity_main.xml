@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dashuedu.simplemathexam.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:hint="@string/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/title_size"
+                android:layout_margin="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="@string/start_exam"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:src="@drawable/images" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/SubjectStyle"
+            android:text="@string/chose_level"/>
+
+        <RadioGroup
+            style="@style/RadioGroupStyle" >
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/primary_level"/>
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/middle_level"/>
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/senior_level"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</ScrollView>
